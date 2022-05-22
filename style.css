@@ -1,0 +1,59 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-color: rgba(207, 0, 207, 0.788);
+  height: 80vh;
+}
+.container {
+  border-radius: 10px;
+  height: 40vh;
+  width: 70vw;
+  gap: 1rem;
+  background-color: rgba(207, 0, 207, 0.445);
+}
+.card {
+  width: 15rem;
+  height: 20rem;
+  background-color: rgba(80, 0, 80, 0.822);
+  font-size: 2rem;
+  text-align: center;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #f0f0f0;
+}
+.card1 {
+  background-color: rgb(39, 0, 39);
+  width: 90%;
+  height: 60%;
+  font-size: 5rem;
+  border: 0;
+  outline: none;
+}
+.card1:focus {
+  background-color: rgb(83, 0, 83);
+}
+/* .container .card1::marker {
+  color: white;
+  font-size: 6rem;
+} */
+.btn {
+  padding: 1rem 2rem;
+  border: 0ch;
+  background-color: rgba(207, 0, 207, 0.445);
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  color: #f0f0f0;
+  font-size: 5rem;
+}
+.btn:active {
+  font-size: 6rem;
+}
